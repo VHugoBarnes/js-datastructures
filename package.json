@@ -1,9 +1,12 @@
 {
   "name": "js-datastructures",
+  "type": "module",
   "version": "1.0.0",
   "description": "Practicing data structures on javascript",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "jest"
   },
   "keywords": [
