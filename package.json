@@ -1,0 +1,14 @@
+{
+  "name": "js-datastructures",
+  "version": "1.0.0",
+  "description": "Practicing data structures on javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ds"
+  ],
+  "author": "Victor Hugo Vazquez Gomez",
+  "license": "ISC"
+}
