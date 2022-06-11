@@ -1,14 +1,9 @@
-import MyArray from "./arrays/Array.js";
+import HashTable from "./hash_tables/HashTable.js";
 
-const myArray = new MyArray();
+const myHashTable = new HashTable(50);
 
-myArray.push("Keko");
-myArray.push("Malia");
-myArray.push("Mochi");
-myArray.push("Reba");
+myHashTable.set("Victor", 22);
+myHashTable.set("Nicole", 22);
+myHashTable.set("Keko", 4);
 
-console.log(myArray.data);
-myArray.addFirst("Regina");
-console.log(myArray.data);
-myArray.popFirst();
-console.log(myArray.data);
+console.log(myHashTable);
