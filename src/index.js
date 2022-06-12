@@ -6,4 +6,6 @@ myHashTable.set("Victor", 22);
 myHashTable.set("Nicole", 22);
 myHashTable.set("Keko", 4);
 
-console.log(myHashTable);
+// console.log(JSON.stringify(myHashTable));
+// myHashTable.delete("Victor");
+console.log(myHashTable.getAll());
