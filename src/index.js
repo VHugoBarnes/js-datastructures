@@ -1,11 +1,6 @@
-import HashTable from "./hash_tables/HashTable.js";
+import SingleLinkedList from "./linked_list/SingleLinkedList.js";
 
-const myHashTable = new HashTable(50);
+let mySLL = new SingleLinkedList(1);
+mySLL.append(2);
 
-myHashTable.set("Victor", 22);
-myHashTable.set("Nicole", 22);
-myHashTable.set("Keko", 4);
-
-// console.log(JSON.stringify(myHashTable));
-// myHashTable.delete("Victor");
-console.log(myHashTable.getAll());
+// console.log(mySLL);
